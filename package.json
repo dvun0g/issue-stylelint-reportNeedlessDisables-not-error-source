@@ -1,0 +1,16 @@
+{
+	"name": "stylelint-reportneedlessdisables-not-error",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "node build-tools/lint.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"stylelint": "^15.9.0",
+		"stylelint-config-standard": "^33.0.0"
+	}
+}

@@ -1,0 +1,875 @@
+[
+  {
+    "source": "/Users/n.glukhoedov/Documents/projects/issues/stylelint-reportNeedlessDisables-not-error/source/example.css",
+    "deprecations": [],
+    "invalidOptionWarnings": [],
+    "parseErrors": [],
+    "errored": false,
+    "warnings": [
+      {
+        "text": "Needless disable for \"all\"",
+        "rule": "--report-needless-disables",
+        "line": 1,
+        "column": 1,
+        "endLine": 1,
+        "endColumn": 23,
+        "severity": "error"
+      },
+      {
+        "text": "Needless disable for \"all\"",
+        "rule": "--report-needless-disables",
+        "line": 5,
+        "column": 1,
+        "endLine": 5,
+        "endColumn": 33,
+        "severity": "error"
+      },
+      {
+        "text": "Needless disable for \"all\"",
+        "rule": "--report-needless-disables",
+        "line": 7,
+        "column": 1,
+        "endLine": 7,
+        "endColumn": 28,
+        "severity": "error"
+      }
+    ],
+    "_postcssResult": {
+      "processor": {
+        "version": "8.4.24",
+        "plugins": []
+      },
+      "messages": [],
+      "root": {
+        "raws": {
+          "semicolon": false,
+          "after": "\n"
+        },
+        "type": "root",
+        "nodes": [
+          {
+            "raws": {
+              "before": "",
+              "left": " ",
+              "right": " "
+            },
+            "type": "comment",
+            "source": {
+              "inputId": 0,
+              "start": {
+                "offset": 0,
+                "line": 1,
+                "column": 1
+              },
+              "end": {
+                "offset": 22,
+                "line": 1,
+                "column": 23
+              }
+            },
+            "text": "stylelint-disable"
+          },
+          {
+            "raws": {
+              "before": "\n\n",
+              "left": " ",
+              "right": " "
+            },
+            "type": "comment",
+            "source": {
+              "inputId": 0,
+              "start": {
+                "offset": 25,
+                "line": 3,
+                "column": 1
+              },
+              "end": {
+                "offset": 46,
+                "line": 3,
+                "column": 22
+              }
+            },
+            "text": "stylelint-enable"
+          },
+          {
+            "raws": {
+              "before": "\n\n",
+              "left": " ",
+              "right": " "
+            },
+            "type": "comment",
+            "source": {
+              "inputId": 0,
+              "start": {
+                "offset": 49,
+                "line": 5,
+                "column": 1
+              },
+              "end": {
+                "offset": 81,
+                "line": 5,
+                "column": 33
+              }
+            },
+            "text": "stylelint-disable-next-line"
+          },
+          {
+            "raws": {
+              "before": "\n\n",
+              "left": " ",
+              "right": " "
+            },
+            "type": "comment",
+            "source": {
+              "inputId": 0,
+              "start": {
+                "offset": 84,
+                "line": 7,
+                "column": 1
+              },
+              "end": {
+                "offset": 111,
+                "line": 7,
+                "column": 28
+              }
+            },
+            "text": "stylelint-disable-line"
+          }
+        ],
+        "source": {
+          "inputId": 0,
+          "start": {
+            "offset": 0,
+            "line": 1,
+            "column": 1
+          }
+        },
+        "lastEach": 75,
+        "indexes": {},
+        "inputs": [
+          {
+            "hasBOM": false,
+            "css": "/* stylelint-disable */\n\n/* stylelint-enable */\n\n/* stylelint-disable-next-line */\n\n/* stylelint-disable-line */\n",
+            "file": "/Users/n.glukhoedov/Documents/projects/issues/stylelint-reportNeedlessDisables-not-error/source/example.css"
+          }
+        ]
+      },
+      "opts": {
+        "from": "/Users/n.glukhoedov/Documents/projects/issues/stylelint-reportNeedlessDisables-not-error/source/example.css",
+        "syntax": {}
+      },
+      "css": "/* stylelint-disable */\n\n/* stylelint-enable */\n\n/* stylelint-disable-next-line */\n\n/* stylelint-disable-line */\n",
+      "stylelint": {
+        "ruleSeverities": {
+          "alpha-value-notation": "error",
+          "annotation-no-unknown": "error",
+          "at-rule-empty-line-before": "error",
+          "at-rule-no-unknown": "error",
+          "at-rule-no-vendor-prefix": "error",
+          "block-no-empty": "error",
+          "color-function-notation": "error",
+          "color-hex-length": "error",
+          "color-no-invalid-hex": "error",
+          "comment-empty-line-before": "error",
+          "comment-no-empty": "error",
+          "comment-whitespace-inside": "error",
+          "custom-media-pattern": "error",
+          "custom-property-empty-line-before": "error",
+          "custom-property-no-missing-var-function": "error",
+          "custom-property-pattern": "error",
+          "declaration-block-no-duplicate-custom-properties": "error",
+          "declaration-block-no-duplicate-properties": "error",
+          "declaration-block-no-redundant-longhand-properties": "error",
+          "declaration-block-no-shorthand-property-overrides": "error",
+          "declaration-block-single-line-max-declarations": "error",
+          "declaration-empty-line-before": "error",
+          "font-family-no-missing-generic-family-keyword": "error",
+          "font-family-name-quotes": "error",
+          "font-family-no-duplicate-names": "error",
+          "function-calc-no-unspaced-operator": "error",
+          "function-linear-gradient-no-nonstandard-direction": "error",
+          "function-name-case": "error",
+          "function-no-unknown": "error",
+          "function-url-quotes": "error",
+          "hue-degree-notation": "error",
+          "import-notation": "error",
+          "keyframe-block-no-duplicate-selectors": "error",
+          "keyframe-declaration-no-important": "error",
+          "keyframe-selector-notation": "error",
+          "keyframes-name-pattern": "error",
+          "length-zero-no-unit": "error",
+          "media-feature-name-no-unknown": "error",
+          "media-feature-name-no-vendor-prefix": "error",
+          "media-feature-range-notation": "error",
+          "named-grid-areas-no-invalid": "error",
+          "no-descending-specificity": "error",
+          "no-duplicate-at-import-rules": "error",
+          "no-duplicate-selectors": "error",
+          "no-empty-source": "error",
+          "no-invalid-double-slash-comments": "error",
+          "no-invalid-position-at-import-rule": "error",
+          "no-irregular-whitespace": "error",
+          "number-max-precision": "error",
+          "property-no-unknown": "error",
+          "property-no-vendor-prefix": "error",
+          "rule-empty-line-before": "error",
+          "selector-anb-no-unmatchable": "error",
+          "selector-attribute-quotes": "error",
+          "selector-class-pattern": "error",
+          "selector-id-pattern": "error",
+          "selector-no-vendor-prefix": "error",
+          "selector-not-notation": "error",
+          "selector-pseudo-class-no-unknown": "error",
+          "selector-pseudo-element-colon-notation": "error",
+          "selector-pseudo-element-no-unknown": "error",
+          "selector-type-case": "error",
+          "selector-type-no-unknown": "error",
+          "shorthand-property-no-redundant-values": "error",
+          "string-no-newline": "error",
+          "unit-no-unknown": "error",
+          "value-keyword-case": "error",
+          "value-no-vendor-prefix": "error"
+        },
+        "customMessages": {},
+        "ruleMetadata": {
+          "alpha-value-notation": {
+            "url": "https://stylelint.io/user-guide/rules/alpha-value-notation",
+            "fixable": true
+          },
+          "annotation-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/annotation-no-unknown"
+          },
+          "at-rule-empty-line-before": {
+            "url": "https://stylelint.io/user-guide/rules/at-rule-empty-line-before",
+            "fixable": true
+          },
+          "at-rule-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/at-rule-no-unknown"
+          },
+          "at-rule-no-vendor-prefix": {
+            "url": "https://stylelint.io/user-guide/rules/at-rule-no-vendor-prefix",
+            "fixable": true
+          },
+          "block-no-empty": {
+            "url": "https://stylelint.io/user-guide/rules/block-no-empty"
+          },
+          "color-function-notation": {
+            "url": "https://stylelint.io/user-guide/rules/color-function-notation",
+            "fixable": true
+          },
+          "color-hex-length": {
+            "url": "https://stylelint.io/user-guide/rules/color-hex-length",
+            "fixable": true
+          },
+          "color-no-invalid-hex": {
+            "url": "https://stylelint.io/user-guide/rules/color-no-invalid-hex"
+          },
+          "comment-empty-line-before": {
+            "url": "https://stylelint.io/user-guide/rules/comment-empty-line-before",
+            "fixable": true
+          },
+          "comment-no-empty": {
+            "url": "https://stylelint.io/user-guide/rules/comment-no-empty"
+          },
+          "comment-whitespace-inside": {
+            "url": "https://stylelint.io/user-guide/rules/comment-whitespace-inside",
+            "fixable": true
+          },
+          "custom-media-pattern": {
+            "url": "https://stylelint.io/user-guide/rules/custom-media-pattern"
+          },
+          "custom-property-empty-line-before": {
+            "url": "https://stylelint.io/user-guide/rules/custom-property-empty-line-before",
+            "fixable": true
+          },
+          "custom-property-no-missing-var-function": {
+            "url": "https://stylelint.io/user-guide/rules/custom-property-no-missing-var-function"
+          },
+          "custom-property-pattern": {
+            "url": "https://stylelint.io/user-guide/rules/custom-property-pattern"
+          },
+          "declaration-block-no-duplicate-custom-properties": {
+            "url": "https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-custom-properties"
+          },
+          "declaration-block-no-duplicate-properties": {
+            "url": "https://stylelint.io/user-guide/rules/declaration-block-no-duplicate-properties",
+            "fixable": true
+          },
+          "declaration-block-no-redundant-longhand-properties": {
+            "url": "https://stylelint.io/user-guide/rules/declaration-block-no-redundant-longhand-properties",
+            "fixable": true
+          },
+          "declaration-block-no-shorthand-property-overrides": {
+            "url": "https://stylelint.io/user-guide/rules/declaration-block-no-shorthand-property-overrides"
+          },
+          "declaration-block-single-line-max-declarations": {
+            "url": "https://stylelint.io/user-guide/rules/declaration-block-single-line-max-declarations"
+          },
+          "declaration-empty-line-before": {
+            "url": "https://stylelint.io/user-guide/rules/declaration-empty-line-before",
+            "fixable": true
+          },
+          "font-family-no-missing-generic-family-keyword": {
+            "url": "https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyword"
+          },
+          "font-family-name-quotes": {
+            "url": "https://stylelint.io/user-guide/rules/font-family-name-quotes",
+            "fixable": true
+          },
+          "font-family-no-duplicate-names": {
+            "url": "https://stylelint.io/user-guide/rules/font-family-no-duplicate-names"
+          },
+          "function-calc-no-unspaced-operator": {
+            "url": "https://stylelint.io/user-guide/rules/function-calc-no-unspaced-operator",
+            "fixable": true
+          },
+          "function-linear-gradient-no-nonstandard-direction": {
+            "url": "https://stylelint.io/user-guide/rules/function-linear-gradient-no-nonstandard-direction"
+          },
+          "function-name-case": {
+            "url": "https://stylelint.io/user-guide/rules/function-name-case",
+            "fixable": true
+          },
+          "function-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/function-no-unknown"
+          },
+          "function-url-quotes": {
+            "url": "https://stylelint.io/user-guide/rules/function-url-quotes",
+            "fixable": true
+          },
+          "hue-degree-notation": {
+            "url": "https://stylelint.io/user-guide/rules/hue-degree-notation",
+            "fixable": true
+          },
+          "import-notation": {
+            "url": "https://stylelint.io/user-guide/rules/import-notation",
+            "fixable": true
+          },
+          "keyframe-block-no-duplicate-selectors": {
+            "url": "https://stylelint.io/user-guide/rules/keyframe-block-no-duplicate-selectors"
+          },
+          "keyframe-declaration-no-important": {
+            "url": "https://stylelint.io/user-guide/rules/keyframe-declaration-no-important"
+          },
+          "keyframe-selector-notation": {
+            "url": "https://stylelint.io/user-guide/rules/keyframe-selector-notation",
+            "fixable": true
+          },
+          "keyframes-name-pattern": {
+            "url": "https://stylelint.io/user-guide/rules/keyframes-name-pattern"
+          },
+          "length-zero-no-unit": {
+            "url": "https://stylelint.io/user-guide/rules/length-zero-no-unit",
+            "fixable": true
+          },
+          "media-feature-name-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/media-feature-name-no-unknown"
+          },
+          "media-feature-name-no-vendor-prefix": {
+            "url": "https://stylelint.io/user-guide/rules/media-feature-name-no-vendor-prefix",
+            "fixable": true
+          },
+          "media-feature-range-notation": {
+            "url": "https://stylelint.io/user-guide/rules/media-feature-range-notation",
+            "fixable": true
+          },
+          "named-grid-areas-no-invalid": {
+            "url": "https://stylelint.io/user-guide/rules/named-grid-areas-no-invalid"
+          },
+          "no-descending-specificity": {
+            "url": "https://stylelint.io/user-guide/rules/no-descending-specificity"
+          },
+          "no-duplicate-at-import-rules": {
+            "url": "https://stylelint.io/user-guide/rules/no-duplicate-at-import-rules"
+          },
+          "no-duplicate-selectors": {
+            "url": "https://stylelint.io/user-guide/rules/no-duplicate-selectors"
+          },
+          "no-empty-source": {
+            "url": "https://stylelint.io/user-guide/rules/no-empty-source"
+          },
+          "no-invalid-double-slash-comments": {
+            "url": "https://stylelint.io/user-guide/rules/no-invalid-double-slash-comments"
+          },
+          "no-invalid-position-at-import-rule": {
+            "url": "https://stylelint.io/user-guide/rules/no-invalid-position-at-import-rule"
+          },
+          "no-irregular-whitespace": {
+            "url": "https://stylelint.io/user-guide/rules/no-irregular-whitespace"
+          },
+          "number-max-precision": {
+            "url": "https://stylelint.io/user-guide/rules/number-max-precision"
+          },
+          "property-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/property-no-unknown"
+          },
+          "property-no-vendor-prefix": {
+            "url": "https://stylelint.io/user-guide/rules/property-no-vendor-prefix",
+            "fixable": true
+          },
+          "rule-empty-line-before": {
+            "url": "https://stylelint.io/user-guide/rules/rule-empty-line-before",
+            "fixable": true
+          },
+          "selector-anb-no-unmatchable": {
+            "url": "https://stylelint.io/user-guide/rules/selector-anb-no-unmatchable"
+          },
+          "selector-attribute-quotes": {
+            "url": "https://stylelint.io/user-guide/rules/selector-attribute-quotes",
+            "fixable": true
+          },
+          "selector-class-pattern": {
+            "url": "https://stylelint.io/user-guide/rules/selector-class-pattern"
+          },
+          "selector-id-pattern": {
+            "url": "https://stylelint.io/user-guide/rules/selector-id-pattern"
+          },
+          "selector-no-vendor-prefix": {
+            "url": "https://stylelint.io/user-guide/rules/selector-no-vendor-prefix",
+            "fixable": true
+          },
+          "selector-not-notation": {
+            "url": "https://stylelint.io/user-guide/rules/selector-not-notation",
+            "fixable": true
+          },
+          "selector-pseudo-class-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/selector-pseudo-class-no-unknown"
+          },
+          "selector-pseudo-element-colon-notation": {
+            "url": "https://stylelint.io/user-guide/rules/selector-pseudo-element-colon-notation",
+            "fixable": true
+          },
+          "selector-pseudo-element-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/selector-pseudo-element-no-unknown"
+          },
+          "selector-type-case": {
+            "url": "https://stylelint.io/user-guide/rules/selector-type-case",
+            "fixable": true
+          },
+          "selector-type-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/selector-type-no-unknown"
+          },
+          "shorthand-property-no-redundant-values": {
+            "url": "https://stylelint.io/user-guide/rules/shorthand-property-no-redundant-values",
+            "fixable": true
+          },
+          "string-no-newline": {
+            "url": "https://stylelint.io/user-guide/rules/string-no-newline"
+          },
+          "unit-no-unknown": {
+            "url": "https://stylelint.io/user-guide/rules/unit-no-unknown"
+          },
+          "value-keyword-case": {
+            "url": "https://stylelint.io/user-guide/rules/value-keyword-case",
+            "fixable": true
+          },
+          "value-no-vendor-prefix": {
+            "url": "https://stylelint.io/user-guide/rules/value-no-vendor-prefix",
+            "fixable": true
+          }
+        },
+        "disabledRanges": {
+          "all": [
+            {
+              "comment": {
+                "raws": {
+                  "before": "",
+                  "left": " ",
+                  "right": " "
+                },
+                "type": "comment",
+                "source": {
+                  "inputId": 0,
+                  "start": {
+                    "offset": 0,
+                    "line": 1,
+                    "column": 1
+                  },
+                  "end": {
+                    "offset": 22,
+                    "line": 1,
+                    "column": 23
+                  }
+                },
+                "text": "stylelint-disable",
+                "inputs": [
+                  {
+                    "hasBOM": false,
+                    "css": "/* stylelint-disable */\n\n/* stylelint-enable */\n\n/* stylelint-disable-next-line */\n\n/* stylelint-disable-line */\n",
+                    "file": "/Users/n.glukhoedov/Documents/projects/issues/stylelint-reportNeedlessDisables-not-error/source/example.css"
+                  }
+                ]
+              },
+              "start": 1,
+              "end": 3,
+              "strictStart": true,
+              "strictEnd": true
+            },
+            {
+              "comment": {
+                "raws": {
+                  "before": "\n\n",
+                  "left": " ",
+                  "right": " "
+                },
+                "type": "comment",
+                "source": {
+                  "inputId": 0,
+                  "start": {
+                    "offset": 49,
+                    "line": 5,
+                    "column": 1
+                  },
+                  "end": {
+                    "offset": 81,
+                    "line": 5,
+                    "column": 33
+                  }
+                },
+                "text": "stylelint-disable-next-line",
+                "inputs": [
+                  {
+                    "hasBOM": false,
+                    "css": "/* stylelint-disable */\n\n/* stylelint-enable */\n\n/* stylelint-disable-next-line */\n\n/* stylelint-disable-line */\n",
+                    "file": "/Users/n.glukhoedov/Documents/projects/issues/stylelint-reportNeedlessDisables-not-error/source/example.css"
+                  }
+                ]
+              },
+              "start": 6,
+              "end": 6,
+              "strictStart": true,
+              "strictEnd": true
+            },
+            {
+              "comment": {
+                "raws": {
+                  "before": "\n\n",
+                  "left": " ",
+                  "right": " "
+                },
+                "type": "comment",
+                "source": {
+                  "inputId": 0,
+                  "start": {
+                    "offset": 84,
+                    "line": 7,
+                    "column": 1
+                  },
+                  "end": {
+                    "offset": 111,
+                    "line": 7,
+                    "column": 28
+                  }
+                },
+                "text": "stylelint-disable-line",
+                "inputs": [
+                  {
+                    "hasBOM": false,
+                    "css": "/* stylelint-disable */\n\n/* stylelint-enable */\n\n/* stylelint-disable-next-line */\n\n/* stylelint-disable-line */\n",
+                    "file": "/Users/n.glukhoedov/Documents/projects/issues/stylelint-reportNeedlessDisables-not-error/source/example.css"
+                  }
+                ]
+              },
+              "start": 7,
+              "end": 7,
+              "strictStart": true,
+              "strictEnd": true
+            }
+          ]
+        },
+        "stylelintError": false,
+        "stylelintWarning": false,
+        "config": {
+          "reportNeedlessDisables": true,
+          "rules": {
+            "alpha-value-notation": [
+              "percentage",
+              {
+                "exceptProperties": [
+                  "opacity",
+                  "fill-opacity",
+                  "flood-opacity",
+                  "stop-opacity",
+                  "stroke-opacity"
+                ]
+              }
+            ],
+            "at-rule-empty-line-before": [
+              "always",
+              {
+                "except": [
+                  "blockless-after-same-name-blockless",
+                  "first-nested"
+                ],
+                "ignore": [
+                  "after-comment"
+                ]
+              }
+            ],
+            "at-rule-no-vendor-prefix": [
+              true
+            ],
+            "color-function-notation": [
+              "modern"
+            ],
+            "color-hex-length": [
+              "short"
+            ],
+            "comment-empty-line-before": [
+              "always",
+              {
+                "except": [
+                  "first-nested"
+                ],
+                "ignore": [
+                  "stylelint-commands"
+                ]
+              }
+            ],
+            "comment-whitespace-inside": [
+              "always"
+            ],
+            "custom-property-empty-line-before": [
+              "always",
+              {
+                "except": [
+                  "after-custom-property",
+                  "first-nested"
+                ],
+                "ignore": [
+                  "after-comment",
+                  "inside-single-line-block"
+                ]
+              }
+            ],
+            "custom-media-pattern": [
+              "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+              {}
+            ],
+            "custom-property-pattern": [
+              "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+              {}
+            ],
+            "declaration-block-no-redundant-longhand-properties": [
+              true
+            ],
+            "declaration-block-single-line-max-declarations": [
+              1
+            ],
+            "declaration-empty-line-before": [
+              "always",
+              {
+                "except": [
+                  "after-declaration",
+                  "first-nested"
+                ],
+                "ignore": [
+                  "after-comment",
+                  "inside-single-line-block"
+                ]
+              }
+            ],
+            "font-family-name-quotes": [
+              "always-where-recommended"
+            ],
+            "function-name-case": [
+              "lower"
+            ],
+            "function-url-quotes": [
+              "always"
+            ],
+            "hue-degree-notation": [
+              "angle"
+            ],
+            "import-notation": [
+              "url"
+            ],
+            "keyframe-selector-notation": [
+              "percentage-unless-within-keyword-only-block"
+            ],
+            "keyframes-name-pattern": [
+              "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+              {}
+            ],
+            "length-zero-no-unit": [
+              true,
+              {
+                "ignore": [
+                  "custom-properties"
+                ]
+              }
+            ],
+            "media-feature-name-no-vendor-prefix": [
+              true
+            ],
+            "media-feature-range-notation": [
+              "context"
+            ],
+            "number-max-precision": [
+              4
+            ],
+            "property-no-vendor-prefix": [
+              true
+            ],
+            "rule-empty-line-before": [
+              "always-multi-line",
+              {
+                "except": [
+                  "first-nested"
+                ],
+                "ignore": [
+                  "after-comment"
+                ]
+              }
+            ],
+            "selector-attribute-quotes": [
+              "always"
+            ],
+            "selector-class-pattern": [
+              "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+              {}
+            ],
+            "selector-id-pattern": [
+              "^([a-z][a-z0-9]*)(-[a-z0-9]+)*$",
+              {}
+            ],
+            "selector-no-vendor-prefix": [
+              true
+            ],
+            "selector-not-notation": [
+              "complex"
+            ],
+            "selector-pseudo-element-colon-notation": [
+              "double"
+            ],
+            "selector-type-case": [
+              "lower"
+            ],
+            "shorthand-property-no-redundant-values": [
+              true
+            ],
+            "value-keyword-case": [
+              "lower"
+            ],
+            "value-no-vendor-prefix": [
+              true,
+              {
+                "ignoreValues": [
+                  "box",
+                  "inline-box"
+                ]
+              }
+            ],
+            "annotation-no-unknown": [
+              true
+            ],
+            "at-rule-no-unknown": [
+              true
+            ],
+            "block-no-empty": [
+              true
+            ],
+            "color-no-invalid-hex": [
+              true
+            ],
+            "comment-no-empty": [
+              true
+            ],
+            "custom-property-no-missing-var-function": [
+              true
+            ],
+            "declaration-block-no-duplicate-custom-properties": [
+              true
+            ],
+            "declaration-block-no-duplicate-properties": [
+              true,
+              {
+                "ignore": [
+                  "consecutive-duplicates-with-different-syntaxes"
+                ]
+              }
+            ],
+            "declaration-block-no-shorthand-property-overrides": [
+              true
+            ],
+            "font-family-no-duplicate-names": [
+              true
+            ],
+            "font-family-no-missing-generic-family-keyword": [
+              true
+            ],
+            "function-calc-no-unspaced-operator": [
+              true
+            ],
+            "function-linear-gradient-no-nonstandard-direction": [
+              true
+            ],
+            "function-no-unknown": [
+              true
+            ],
+            "keyframe-block-no-duplicate-selectors": [
+              true
+            ],
+            "keyframe-declaration-no-important": [
+              true
+            ],
+            "media-feature-name-no-unknown": [
+              true
+            ],
+            "named-grid-areas-no-invalid": [
+              true
+            ],
+            "no-descending-specificity": [
+              true
+            ],
+            "no-duplicate-at-import-rules": [
+              true
+            ],
+            "no-duplicate-selectors": [
+              true
+            ],
+            "no-empty-source": [
+              true
+            ],
+            "no-invalid-double-slash-comments": [
+              true
+            ],
+            "no-invalid-position-at-import-rule": [
+              true
+            ],
+            "no-irregular-whitespace": [
+              true
+            ],
+            "property-no-unknown": [
+              true
+            ],
+            "selector-anb-no-unmatchable": [
+              true
+            ],
+            "selector-pseudo-class-no-unknown": [
+              true
+            ],
+            "selector-pseudo-element-no-unknown": [
+              true
+            ],
+            "selector-type-no-unknown": [
+              true,
+              {
+                "ignore": [
+                  "custom-elements"
+                ]
+              }
+            ],
+            "string-no-newline": [
+              true
+            ],
+            "unit-no-unknown": [
+              true
+            ]
+          }
+        },
+        "disableWritingFix": true
+      }
+    }
+  }
+]
